@@ -48,8 +48,9 @@
     position:fixed;
     top:0;
     width:100%;
-    opacity:0.9;
+    opacity:0.97;
     visibility: hidden;
+    // backdrop-filter: blur(1  px);
 
     &.show{
         visibility:visible;
@@ -95,7 +96,7 @@
 
         .portrait {
             width:356px;
-            height:405px;
+            height:356px;
             background: url('../img/port.jpg');
             border:solid 1px $secondary-color;
             border-radius: 50%;
